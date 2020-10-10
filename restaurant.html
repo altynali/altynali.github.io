@@ -4,9 +4,9 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Тануки</title>
-    <link rel="stylesheet" href="normalize.css" />
-    <link rel="stylesheet" href="animate.css" />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/animate.css" />
+    <link rel="stylesheet" href="css/style.css" />
     <link
       href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap"
       rel="stylesheet"
@@ -18,7 +18,7 @@
       <header class="header">
         <!--Логотип-->
         <a href="index.html" class="animate__animated animate__bounce"
-          ><img src="img\logo.svg" alt="logo" class="logo"
+          ><img src="logo.svg" alt="logo" class="logo"
         /></a>
         <!--Форма-->
         <input
@@ -30,13 +30,13 @@
         <div class="buttons">
           <!--Кнопкa-->
           <button class="button button-primary">
-            <img src="user.svg" alt="user" class="button-icon" />
+            <img src="img/user.svg" alt="user" class="button-icon" />
             <span class="button-text">Войти</span>
           </button>
           <!--Кнопкa-->
           <button class="button" id="cart-button">
             <img
-              src="shopping-card.svg"
+              src="img/shopping-card.svg"
               alt="shopping card"
               class="button-icon"
             />
@@ -54,7 +54,7 @@
             <h2 class="section-title">Тануки</h2>
             <div class="card-info info">
               <div class="reating">
-                <img src="reating.svg" alt="reating" class="reating-star" />
+                <img src="img/reating.svg" alt="reating" class="reating-star" />
                 4.5
               </div>
               <div class="price">От 900 ₽</div>
@@ -66,7 +66,11 @@
               class="card wow animate__animated animate__bounce"
               data-wow-delay="0.2s"
             >
-              <img src="image-r.jpg" alt="image" class="card-image res-image" />
+              <img
+                src="img/image-r.jpg"
+                alt="image"
+                class="card-image res-image"
+              />
               <div class="card-text">
                 <div class="card-heading">
                   <h3 class="card-title card-title-res">Ролл угорь стандарт</h3>
@@ -81,7 +85,7 @@
                   <button class="button button-primary">
                     <span class="res-text">В корзину</span>
                     <img
-                      src="res-card.svg"
+                      src="img/res-card.svg"
                       alt="res-card"
                       class="button-icon"
                     />
@@ -96,7 +100,7 @@
               data-wow-delay="0.4s"
             >
               <img
-                src="image-r1.jpg"
+                src="img/image-r1.jpg"
                 alt="image"
                 class="card-image res-image"
               />
@@ -116,7 +120,7 @@
                   <button class="button button-primary">
                     <span class="res-text">В корзину</span>
                     <img
-                      src="res-card.svg"
+                      src="img/res-card.svg"
                       alt="res-card"
                       class="button-icon"
                     />
@@ -131,7 +135,7 @@
               data-wow-delay="0.6s"
             >
               <img
-                src="image-r2.jpg"
+                src="img/image-r2.jpg"
                 alt="image"
                 class="card-image res-image"
               />
@@ -149,7 +153,7 @@
                   <button class="button button-primary">
                     <span class="res-text">В корзину</span>
                     <img
-                      src="res-card.svg"
+                      src="img/res-card.svg"
                       alt="res-card"
                       class="button-icon"
                     />
@@ -164,7 +168,7 @@
               data-wow-delay="0.2s"
             >
               <img
-                src="image-r3.jpg"
+                src="img/image-r3.jpg"
                 alt="image"
                 class="card-image res-image"
               />
@@ -182,7 +186,7 @@
                   <button class="button button-primary">
                     <span class="res-text">В корзину</span>
                     <img
-                      src="res-card.svg"
+                      src="img/res-card.svg"
                       alt="res-card"
                       class="button-icon"
                     />
@@ -197,7 +201,7 @@
               data-wow-delay="0.4s"
             >
               <img
-                src="image-r4.jpg"
+                src="img/image-r4.jpg"
                 alt="image"
                 class="card-image res-image"
               />
@@ -217,7 +221,7 @@
                   <button class="button button-primary">
                     <span class="res-text">В корзину</span>
                     <img
-                      src="res-card.svg"
+                      src="img/res-card.svg"
                       alt="res-card"
                       class="button-icon"
                     />
@@ -232,7 +236,7 @@
               data-wow-delay="0.6s"
             >
               <img
-                src="image-r5.jpg"
+                src="img/image-r5.jpg"
                 alt="image"
                 class="card-image res-image"
               />
@@ -252,7 +256,7 @@
                   <button class="button button-primary">
                     <span class="res-text">В корзину</span>
                     <img
-                      src="res-card.svg"
+                      src="img/res-card.svg"
                       alt="res-card"
                       class="button-icon"
                     />
@@ -272,7 +276,7 @@
     <footer class="footer">
       <div class="container">
         <div class="footer-block">
-          <img src="logo.svg" alt="logo" class="logo footer-logo" />
+          <img src="img/logo.svg" alt="logo" class="logo footer-logo" />
           <nav class="footer-nav">
             <a href="#" class="footer-link">Ресторанам</a>
             <a href="#" class="footer-link">Курьерам</a>
@@ -281,12 +285,14 @@
           </nav>
           <div class="social-links">
             <a href="#" class="social-link"
-              ><img src="instagram.svg" alt="instagram"
+              ><img src="img/instagram.svg" alt="instagram"
             /></a>
             <a href="#" class="social-link"
-              ><img src="facebook.svg" alt="facebook"
+              ><img src="img/facebook.svg" alt="facebook"
             /></a>
-            <a href="#" class="social-link"><img src="vk.svg" alt="vk" /></a>
+            <a href="#" class="social-link"
+              ><img src="img/vk.svg" alt="vk"
+            /></a>
           </div>
         </div>
       </div>
@@ -345,7 +351,7 @@
       </div>
     </div>
 
-    <script src="wow.js"></script>
-    <script src="main.js"></script>
+    <script src="js/wow.js"></script>
+    <script src="js/main.js"></script>
   </body>
 </html>
