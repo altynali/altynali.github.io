@@ -29,11 +29,11 @@ body {
 }
 .input-address {
   flex: 0.8;
-  background-image: url(../img/home.svg);
+  background-image: url(home.svg);
 }
 .input-search {
   width: 300px;
-  background-image: url(../img/search.svg);
+  background-image: url(search.svg);
 }
 
 .buttons {
